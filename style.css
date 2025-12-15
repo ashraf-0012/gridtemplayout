@@ -139,6 +139,7 @@ body{
   .container{
     display: grid;
     grid-template-columns: 1fr;
+    background-color:gainsboro;
     grid-template-areas:
     .purple,
     .grey,
@@ -150,4 +151,5 @@ body{
     ;
   }
 }
+
 
