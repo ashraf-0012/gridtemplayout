@@ -135,21 +135,21 @@ body{
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .container{
-    display: grid;
-    grid-template-columns: 1fr;
-    background-color:gainsboro;
-    grid-template-areas:
-    .purple,
-    .grey,
-    .grey-tall,
-    .white,
-    .white-tall
+    display: block;
     
-    
-    ;
   }
-}
+
+  .purple,
+  .grey,
+  .grey-tall,
+  .white,
+  .white-tall{
+    margin-bottom: 30px;
+    
+  }
+
+    }
 
 
